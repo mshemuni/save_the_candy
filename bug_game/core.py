@@ -1,4 +1,4 @@
-from .v3d import Point, Vector
+from .v2d import Point, Vector
 
 from playsound import playsound
 import pyraylib as pr
