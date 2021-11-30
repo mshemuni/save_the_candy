@@ -19,7 +19,8 @@ Assets:
 - Camdy: https://bit.ly/3G02irj
 - Swapper: https://bit.ly/3IgbSsa
 - Fart: https://bit.ly/3FZkMIx
+- Sound/Music/Stop Icons: https://bit.ly/3o4eroT
 - Paste sound: https://bit.ly/3xFUW9p
 - Fart Sound: https://bit.ly/3p735jo
 - Crunch Sound: https://bit.ly/32KFJIW
-- Sound/Music/Stop Icons: https://bit.ly/3o4eroT
+- Music: https://www.beepbox.co

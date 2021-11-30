@@ -62,7 +62,7 @@ def main(number_of_candies=1, ants_angle=15, number_of_farts=2):
                      image=None, resize_factor=1)
 
     stop = Button(Point(1075, 25),
-                     image="assets/stop.png", resize_factor=0.05)
+                  image="assets/stop.png", resize_factor=0.05)
 
     sound_on = Button(Point(1175, 25),
                       text=None,
@@ -193,12 +193,14 @@ def main(number_of_candies=1, ants_angle=15, number_of_farts=2):
             start_but.show()
 
             pr.draw_text(f'Ants: https://bit.ly/3I33Wub',
-                         860, 570, 16, pr.BLACK)
+                         860, 550, 16, pr.BLACK)
             pr.draw_text(f'Camdy: https://bit.ly/3G02irj',
-                         860, 590, 16, pr.BLACK)
+                         860, 570, 16, pr.BLACK)
             pr.draw_text(f'Swapper: https://bit.ly/3IgbSsa',
-                         860, 610, 16, pr.BLACK)
+                         860, 590, 16, pr.BLACK)
             pr.draw_text(f'Fart: https://bit.ly/3FZkMIx',
+                         860, 610, 16, pr.BLACK)
+            pr.draw_text(f'Sound/Music/Stop Icons: https://bit.ly/3o4eroT',
                          860, 630, 16, pr.BLACK)
             pr.draw_text(f'Paste sound: https://bit.ly/3xFUW9p',
                          860, 650, 16, pr.BLACK)
@@ -206,7 +208,7 @@ def main(number_of_candies=1, ants_angle=15, number_of_farts=2):
                          860, 670, 16, pr.BLACK)
             pr.draw_text(f'Crunch Sound: https://bit.ly/32KFJIW',
                          860, 690, 16, pr.BLACK)
-            pr.draw_text(f'Sound/Music/Stop Icons: https://bit.ly/3o4eroT',
+            pr.draw_text(f'Music: https://www.beepbox.co',
                          860, 710, 16, pr.BLACK)
 
             pr.draw_text("How to play:\n"
@@ -217,7 +219,6 @@ def main(number_of_candies=1, ants_angle=15, number_of_farts=2):
                          "Right click can kill multiple ants.\n"
                          "But you have limited stroke and there will be a cool down.",
                          10, 500, 22, pr.BLACK)
-
 
             if pr.is_mouse_button_released(0):
 
