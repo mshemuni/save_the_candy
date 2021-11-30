@@ -88,7 +88,7 @@ class Point:
         """
         if not isinstance(scalar, (float, int)):
             raise ValueError("scalar must be a numeric")
-        return self.mult(1/ scalar)
+        return self.mult(1 / scalar)
 
     def dist(self, other: Point = None) -> Union[float, int]:
         """
@@ -169,7 +169,7 @@ class Vector:
     def __truediv__(self, other: Union[float, int]) -> Vector:
         return self.div(other)
 
-    def __eq__(self, other: Union[float, int]) -> Vector:
+    def __eq__(self, other: Vector) -> bool:
         return self.point == other.point
 
     def mag(self) -> Union[float, int]:

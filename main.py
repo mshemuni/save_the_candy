@@ -153,7 +153,6 @@ def main(number_of_candies=1, ants_angle=15, number_of_farts=2):
                     if not hit:
                         hit = True
                         s.hit(ants)
-                        window.set_fps(60)
 
                 if pr.is_mouse_button_released(0):
                     hit = False
@@ -246,8 +245,8 @@ def main(number_of_candies=1, ants_angle=15, number_of_farts=2):
                     candies = [
                         Candy(Vector(
                             Point(
-                                pr.get_random_value(SCREEN_WIDTH / 4, 3 * SCREEN_WIDTH / 4),
-                                pr.get_random_value(SCREEN_HEIGHT / 4, 3 * SCREEN_HEIGHT / 4),
+                                pr.get_random_value(int(SCREEN_WIDTH / 4), int(3 * SCREEN_WIDTH / 4)),
+                                pr.get_random_value(int(SCREEN_HEIGHT / 4), int(3 * SCREEN_HEIGHT / 4)),
                             )
                         ), 100)
                         for _ in range(number_of_candies)
