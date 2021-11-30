@@ -19,7 +19,7 @@ If you are in trouble, right click to eliminate ants in a small area. This is a 
 `python main.py`
 
 
-Assets:
+## Assets:
 - Ants: https://bit.ly/3I33Wub
 - Camdy: https://bit.ly/3G02irj
 - Swapper: https://bit.ly/3IgbSsa
