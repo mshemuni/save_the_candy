@@ -12,6 +12,11 @@ If an ant take a bite from the candy, it will gain stamina.
 
 If you are in trouble, right click to eliminate ants in a small area. This is a limited weapon and has a cooldown.
 
+## Installation:
+
+`pip install sounddevice soundfile playsound pyraylib`
+
+`python main.py`
 
 
 Assets:

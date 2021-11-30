@@ -1,10 +1,10 @@
 import pyraylib as pr
 from playsound import playsound
+import math
+from random import randint
 
 from bug_game import Candy, Ant, Swatter, Fart, Button, Sound
 from bug_game import Point, Vector
-import math
-from random import randint
 
 
 def main(number_of_candies=1, ants_angle=15, number_of_farts=2):

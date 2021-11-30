@@ -1,8 +1,7 @@
-from playsound import playsound
-
 from .v3d import Point, Vector
-import pyraylib as pr
 
+from playsound import playsound
+import pyraylib as pr
 import soundfile as sf
 import sounddevice as sd
 
